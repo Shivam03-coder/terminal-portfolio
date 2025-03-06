@@ -116,7 +116,7 @@ const Projects = () => {
         {/* NOVA-X */}
         <div>
           <p className="text-lg font-semibold text-yellow-400">
-            NOVA-X | <span className="text-pink-400">Nov 2024 - Nov 2024</span>
+            NOVA-X |{" "} <span className="text-pink-400">Nov 2024 - Nov 2024</span>
           </p>
           <p>An text Editor like eraser.io</p>
         </div>
@@ -124,7 +124,7 @@ const Projects = () => {
         {/* Social Media Management App */}
         <div>
           <p className="text-lg font-semibold text-yellow-400">
-            DigiLab - Social Media Management App |
+            DigiLab - Social Media Management App |{" "}
             <span className="text-pink-400">Feb 2025 - persent</span>
           </p>
           <p>
@@ -137,7 +137,7 @@ const Projects = () => {
         {/* Law & Taxation Management App */}
         <div>
           <p className="text-lg font-semibold text-yellow-400">
-            Law & Taxation Management App |
+            Law & Taxation Management App |{" "}
             <span className="text-pink-400">Dec 2024 - persent</span>
           </p>
           <p>

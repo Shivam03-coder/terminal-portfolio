@@ -2,7 +2,7 @@ import React from 'react'
 
 const Help = () => {
   return (
-    <div className="font-spaceGrotesk text-gray-300">
+    <div className="font-semibold text-gray-300">
     <p className="mb-2 text-yellow-400">Available commands:</p>
     <p>
       <span className="text-green-400">about</span> - Learn about me
