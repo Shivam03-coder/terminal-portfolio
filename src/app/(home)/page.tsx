@@ -11,6 +11,7 @@ import {
   GraduationCap,
 } from "lucide-react";
 import About from "./about";
+import Skills from "./skills";
 
 interface Command {
   command: string;
@@ -67,33 +68,7 @@ function HomePage() {
       </div>
     ),
     about: <About />,
-
-    skills: (
-      <div className="text-gray-300">
-        <div className="mb-2 flex items-center gap-2">
-          <FileCode className="text-purple-400" size={20} />
-          <span className="font-bold text-purple-400">Technical Skills</span>
-        </div>
-        <div className="grid grid-cols-2 gap-4">
-          <div>
-            <p className="text-yellow-400">Frontend:</p>
-            <ul className="list-inside list-disc">
-              <li>React</li>
-              <li>TypeScript</li>
-              <li>Tailwind CSS</li>
-            </ul>
-          </div>
-          <div>
-            <p className="text-yellow-400">Backend:</p>
-            <ul className="list-inside list-disc">
-              <li>Node.js</li>
-              <li>Python</li>
-              <li>PostgreSQL</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    ),
+    skills: <Skills/>,
     projects: (
       <div className="text-gray-300">
         <div className="mb-2 flex items-center gap-2">
