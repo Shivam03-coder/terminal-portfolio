@@ -12,6 +12,10 @@ import {
 } from "lucide-react";
 import About from "./about";
 import Skills from "./skills";
+import Education from "./education";
+import Contact from "./contacts";
+import WorkExperience from "./work-experience";
+import Projects from "./projects";
 
 interface Command {
   command: string;
@@ -68,77 +72,11 @@ function HomePage() {
       </div>
     ),
     about: <About />,
-    skills: <Skills/>,
-    projects: (
-      <div className="text-gray-300">
-        <div className="mb-2 flex items-center gap-2">
-          <Briefcase className="text-orange-400" size={20} />
-          <span className="font-bold text-orange-400">Projects</span>
-        </div>
-        <div className="space-y-2">
-          <div>
-            <p className="text-yellow-400">Project 1</p>
-            <p>A description of your first project</p>
-          </div>
-          <div>
-            <p className="text-yellow-400">Project 2</p>
-            <p>A description of your second project</p>
-          </div>
-        </div>
-      </div>
-    ),
-    contact: (
-      <div className="text-gray-300">
-        <div className="mb-2 flex items-center gap-2">
-          <Mail className="text-red-400" size={20} />
-          <span className="font-bold text-red-400">Contact Information</span>
-        </div>
-        <div className="space-y-2">
-          <p className="flex items-center gap-2">
-            <Mail size={16} /> email@example.com
-          </p>
-          <p className="flex items-center gap-2">
-            <Github size={16} /> github.com/yourusername
-          </p>
-          <p className="flex items-center gap-2">
-            <Linkedin size={16} /> linkedin.com/in/yourusername
-          </p>
-        </div>
-      </div>
-    ),
-    education: (
-      <div className="text-gray-300">
-        <div className="mb-2 flex items-center gap-2">
-          <GraduationCap className="text-cyan-400" size={20} />
-          <span className="font-bold text-cyan-400">Education</span>
-        </div>
-        <div className="space-y-2">
-          <p className="text-yellow-400">University Name</p>
-          <p>Degree in Mechanical Engineering</p>
-          <p>Graduation Year: 2027</p>
-        </div>
-      </div>
-    ),
-    experience: (
-      <div className="text-gray-300">
-        <div className="mb-2 flex items-center gap-2">
-          <Briefcase className="text-green-400" size={20} />
-          <span className="font-bold text-green-400">Work Experience</span>
-        </div>
-        <div className="space-y-4">
-          <div>
-            <p className="text-yellow-400">Company Name 1</p>
-            <p>Position: Senior Developer</p>
-            <p>Duration: 20XX - Present</p>
-          </div>
-          <div>
-            <p className="text-yellow-400">Company Name 2</p>
-            <p>Position: Software Engineer</p>
-            <p>Duration: 20XX - 20XX</p>
-          </div>
-        </div>
-      </div>
-    ),
+    skills: <Skills />,
+    projects: <Projects />,
+    contact: <Contact />,
+    education: <Education />,
+    experience: <WorkExperience />,
   };
 
   useEffect(() => {
